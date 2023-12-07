@@ -81,9 +81,11 @@ main .main-content-button a button {
   font-weight: 700;
   border: none;
   cursor: pointer;
+  transition: 0.5s;
 }
-main .main-content-button .main-content-button:hover {
-  cursor: pointer;
+main .main-content-button a button:hover {
+  background: red;
+  transform: scale(1.1);
 }
 main .card {
   max-width: 880px;
@@ -366,10 +368,6 @@ footer .footer-photos img {
   width: 72px;
   padding: 0;
   margin: 0;
-}
-
-* {
-  outline: 1px solid blue;
 }
 
 @media (max-width: 1280px) {
