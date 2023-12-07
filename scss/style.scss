@@ -28,6 +28,13 @@ header {
                 a {
                     text-decoration: none;
                     color: #FFF;
+                    &:hover{
+                        font-family: "Raleway";
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 19px;
+                        text-decoration: underline;
+                    }
                 }
             }
         }
