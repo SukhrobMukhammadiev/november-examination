@@ -297,6 +297,11 @@ main .banner .banner-info a button {
   border-radius: 50px;
   cursor: pointer;
 }
+main .banner .banner-info a button:hover {
+  background: red;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 
 footer {
   max-width: 1441px;
@@ -360,6 +365,13 @@ footer .list ul li a {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
+}
+footer .list ul li a:hover {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration: underline;
 }
 footer .footer-photos {
   width: 100%;

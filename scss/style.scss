@@ -309,6 +309,7 @@ main {
             }
     
             a {
+            
                 button {
                     color: #FFF;
                     text-align: center;
@@ -320,6 +321,11 @@ main {
                     padding: 15px 27px;
                     border-radius: 50px;
                     cursor: pointer;
+                    &:hover{
+                        background: red;
+                        transition: 0.5s;                        
+                        transform: scale(1.1);
+                    }
             }
 
             } 
@@ -385,17 +391,22 @@ ul{
     display: flex;
     flex-direction: column;
     row-gap: 16px;
- 
     li {
-            list-style-type: none;
-
-           
+            list-style-type: none;           
         a {
             text-decoration: none;
             color: #FFF;
             font-family: "Open Sans";
             font-size: 16px;
             font-weight: 400;
+            &:hover{
+                font-family: "Open Sans";                 
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                text-decoration: underline;
+            }
+            
         }
         }       
 }  
